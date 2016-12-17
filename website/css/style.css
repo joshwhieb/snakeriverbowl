@@ -1,0 +1,41 @@
+﻿body
+{
+}
+#left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 175px;
+}
+#right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 175px;
+}
+
+#center{
+    margin: 0 190px;
+}
+#header{
+
+}
+
+#measurementbox{
+    background-color: gray;
+    padding: 20px;
+    margin: 20px;
+    width: 90px;
+}
+
+#fingerHole{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+
+#container{
+    position: relative;
+
+}
