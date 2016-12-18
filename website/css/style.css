@@ -15,6 +15,8 @@
 }
 
 #center{
+    position: relative;
+    background: #DDF;
     margin: 0 190px;
 }
 #header{
@@ -33,6 +35,88 @@
     width: 100px;
     height: 100px;
     background-color: gray;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#rightspan{
+    position: absolute;
+    left: 370px;
+    top: 100px;
+}
+
+#leftspan{
+    position: absolute;
+    left: 230px;
+    top: 100px;
+}
+
+#bridge{
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+
+
+#forwardpitch{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+#middlepitch{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+#backpitch{
+    position: absolute;
+    left: 20px;
+    top: 180px;
+}
+
+#middlefinger{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+
+#ringfinger{
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+#thumb{
+    position:absolute;
+    left: 300px;
+    top: 300px;
+}
+
+#forwardthumbpitch{
+    position: absolute;
+    left: 260px;
+    top: 210px;
+}
+
+#backwardthumbpitch{
+    position: absolute;
+    left: 260px;
+    top: 390px;
+}
+
+#leftthumbpitch{
+    position: absolute;
+    left: 140px;
+    top: 300px;
+}
+
+#rightthumbpitch{
+    position: absolute;
+    left: 390px;
+    top: 300px;
 }
 
 #container{
